@@ -7,7 +7,7 @@
 
     <body>
         <?php
-        echo 'Hello, world!';//Вывод
+        echo 'Hello, world! I like java!';//Вывод
 	?>
         </body>
 
