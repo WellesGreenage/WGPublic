@@ -8,7 +8,7 @@
     <body>
         <?php
         echo 'Hello, world!';//Вывод
-		?>
+	?>
         </body>
 
 </html>
