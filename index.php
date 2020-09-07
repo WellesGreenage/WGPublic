@@ -10,7 +10,7 @@
             echo 'Hello, world! I like java! Today is: ';
         ?>
         <?php
-            date_default_timezone_set('Russia/Barnaul');
+            date_default_timezone_set('Asia/Barnaul');
             echo date("D F G");
         ?>
     </body>
