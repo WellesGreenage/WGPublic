@@ -7,7 +7,8 @@
 
     <body>
         <?php
-        echo 'Hello, world! I like java!';//Вывод
+        // Вывод
+        echo 'Hello, world! I like java!';
 	    ?>
 	    <?php 
 	    echo 'Today is: ';
