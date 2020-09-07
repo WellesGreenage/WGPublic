@@ -7,12 +7,11 @@
 
     <body>
         <?php
-        // Вывод
-        echo 'Hello, world! I like java!';
+            echo 'Hello, world! I like java! Today is: ';
 	    ?>
-	    <?php 
-	    echo 'Today is: ';
-	    echo date("l dS of F Y h:i:s A");
+	    <?php
+        date_default_timezone_set('Russia/Barnaul');
+        echo date("D F G");
 	    ?>
         </body>
 
