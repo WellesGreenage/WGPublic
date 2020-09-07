@@ -12,7 +12,7 @@
         ?>
         <?php
             date_default_timezone_set('Asia/Novosibirsk');
-            echo date("D, j F Y, G:I");
+            echo date("D, j F Y, G:i");
         ?>
     </body>
 
