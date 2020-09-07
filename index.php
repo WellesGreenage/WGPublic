@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <title>My site</title>
+        <title>V2.1</title>
     </head>
 
     <body>
