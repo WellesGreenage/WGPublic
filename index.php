@@ -2,7 +2,7 @@
 <html lang="ru">
 
     <head>
-        <title>V2.3</title>
+        <title>V2.4</title>
         <link rel="schortcut icon" href="/images/favicon.png" type="image/png"/>
     </head>
 
