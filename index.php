@@ -3,6 +3,7 @@
 
     <head>
         <title>V2.3</title>
+        <link rel="schortcut icon" href="/images/favicon.png" type="image/png"/>
     </head>
 
     <body>
