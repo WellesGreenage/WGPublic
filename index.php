@@ -8,11 +8,11 @@
     <body>
         <?php
             echo 'Hello, world! I like java! Today is: ';
-	    ?>
-	    <?php
-        //date_default_timezone_set('Russia/Barnaul');
-        echo date("D F G");
-	    ?>
-        </body>
+        ?>
+        <?php
+            date_default_timezone_set('Russia/Barnaul');
+            echo date("D F G");
+        ?>
+    </body>
 
 </html>
