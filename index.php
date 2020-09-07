@@ -3,6 +3,7 @@
 
     <head>
         <title>V2.4</title>
+        <meta charset="utf-8">
         <link rel="schortcut icon" href="/images/favicon.png" type="image/png"/>
     </head>
 
