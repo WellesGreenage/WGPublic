@@ -28,15 +28,21 @@
         ?>
         <table>
         <?php
+        $r = 110;
         for ($i = 1; $i <= 10; $i++) {
             echo "<tr>";
-                 for ($k = 1; $k <= 11; $k++) {
-                    echo "<td>1</td>";
-                 }
+            for ($k = 1; $k <= 11; $k++) {
+                echo "<td>$r</td>";
+                $r--;
+            }
             echo "</tr>";
         }
+
         ?>
         </table>
+        <?php
+        echo $r;
+        ?>
 
         <table>
             <tr>
