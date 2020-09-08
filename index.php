@@ -26,21 +26,23 @@
             echo "<td>1</td>";
         }
         ?>
+        <table>
         <?php
         for ($i = 1; $i <= 10; $i++) {
-            echo "<table>
-                    <tr>
-                        <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
-                        <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
-                    </tr>
-                  </table>";
+            echo "<tr>";
+                 for ($k = 1; $k <= 11; $k++) {
+                    echo "<td>1</td>";
+                 }
+            echo "</tr>";
         }
         ?>
+        </table>
+
         <table>
             <tr>
                 <td>...</td>
             </tr>
-
+        </table>
     </body>
 
 </html>
