@@ -2,7 +2,7 @@
 <html lang="ru">
 
     <head>
-        <title>V2.4</title>
+        <title>Hello World!</title>
         <meta charset="utf-8">
         <link rel="schortcut icon" href="/images/favicon.png" type="image/png"/>
     </head>
@@ -14,26 +14,19 @@
         <?php
         date_default_timezone_set('Asia/Novosibirsk');
         echo date("D, j F Y, G:i");
-        echo "<H1>qwerty</H1>";
+        echo "<H1>My First project</H1>";
         echo "<br>";
-        for ($i = 1; $i <= 5; $i++) {
-            echo $i;
-        }
         echo "<br>";
-        ?>
-        <?php
-        for ($i = 1; $i <= 11; $i++) {
-            echo "<td>1</td>";
-        }
+        echo "Output of a 10x11 table with numbers:";
         ?>
         <table>
         <?php
-        $r = 110;
+        $r = 1;
         for ($i = 1; $i <= 10; $i++) {
             echo "<tr>";
             for ($k = 1; $k <= 11; $k++) {
                 echo "<td>$r</td>";
-                $r--;
+                $r++;
             }
             echo "</tr>";
         }
@@ -42,13 +35,9 @@
         </table>
         <?php
         echo $r;
+        echo "<br>";echo "<br>";
         ?>
 
-        <table>
-            <tr>
-                <td>...</td>
-            </tr>
-        </table>
     </body>
 
 </html>
