@@ -1,3 +1,13 @@
+<?php
+error_reporting(E_ALL);
+set_error_handler('myHandler');
+function myHandler($code, $msg, $file, $line)
+{
+    echo '<br>';
+    echo implode('<br>', [$code, $msg, "$file:$line]);
+    die();
+}
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
