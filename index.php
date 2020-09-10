@@ -35,26 +35,26 @@ for ($i = 1; $i <= 10; $i++) {
 <?php
 echo $r;
 echo "<br>";echo "<br>";
-echo '<table><form method="GET">';
+echo '<table><form method="POST">';
 echo '<tr>
         <td>Enter your name: </td><td><input name = "name" />
         </td><td></td><td>Your name is: </td>
         <td>';
-echo htmlspecialchars($_GET['name']);
+echo htmlspecialchars($_POST['name']);
         echo '</td>
       </tr>
       <tr>
         <td>Enter your surname: </td><td><input name = "sname" />
         </td><td><button>Output</button></td><td>You surname is: </td>
         <td>';
-echo htmlspecialchars($_GET['sname']);
+echo htmlspecialchars($_POST['sname']);
         echo '</td>
       </tr>
       <tr>
         <td>Enter your Father name: </td><td><input name = "fname" />
         </td><td></td><td>You Father name is: </td>
         <td>';
-echo htmlspecialchars($_GET['fname']);
+echo htmlspecialchars($_POST['fname']);
         echo '</td>
       </tr>
       ';
