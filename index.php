@@ -28,7 +28,7 @@ echo '<input type="text" name="width" placeholder="Enter width"></br>';
 echo '<input type="text" name="height" placeholder="Enter height"></br>';
 echo '<button>Output</button></br></br>';
 echo '</form>';
-if (isset($_POST)) {
+if (isset($_POST['width']) && ($_POST['height'])) {
     echo '<table>';
     $r = 1;
     for ($i = 1; $i <= $_POST['width']; $i++) {
