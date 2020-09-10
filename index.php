@@ -36,7 +36,21 @@
         <?php
         echo $r;
         echo "<br>";echo "<br>";
+        echo '<form method="POST">';
+        echo "Enter your name: ";
+        echo '<input name = "name" />';echo "<br>";
+
+        echo "Enter your surname: ";
+        echo '<input name = "sname" />';echo "<br>";
+
+        echo "Enter yor Father Name: ";
+        echo '<input name = "fname" />';echo "<br>";
+
+        echo '<button>Output</button>';
+        echo '</form>';
+        var_dump($_POST);
         ?>
+
 
     </body>
 
