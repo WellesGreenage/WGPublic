@@ -3,10 +3,12 @@ error_reporting(E_ALL);
 set_error_handler('myHandler');
 function myHandler($code, $msg, $file, $line)
 {
+    ob_end_clean();
     echo '<br>';
     echo implode('<br>', [$code, $msg, "$file:$line"]);
     die();
 }
+ob_start();
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -51,3 +53,6 @@ echo $_POST['height'];
 ?>
 </body>
 </html>
+
+<?php
+ob_end_flush();
