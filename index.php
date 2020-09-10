@@ -4,7 +4,7 @@ set_error_handler('myHandler');
 function myHandler($code, $msg, $file, $line)
 {
     echo '<br>';
-    echo implode('<br>', [$code, $msg, "$file:$line]);
+    echo implode('<br>', [$code, $msg, "$file:$line"]);
     die();
 }
 ?>
