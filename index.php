@@ -52,32 +52,38 @@ echo '<tr>
     <td>Enter your name: </td><td><input name = "name" />
     </td><td></td><td>Your name is: </td>
     <td>';
-if (!empty($_POST["name"]))
-{echo htmlspecialchars($_POST['name']);}
-    else {echo "You have not entered a name!";}
+if (key_exists('name', $_POST)) {
+    echo htmlspecialchars($_POST['name']);
+} else {
+    echo "You have not entered a name!";
+}
 echo '</td>
   </tr>
   <tr>
     <td>Enter your surname: </td><td><input name = "sname" />
     </td><td><button>Output</button></td><td>You surname is: </td>
     <td>';
-if (!empty($_POST["sname"]))
-{echo htmlspecialchars($_POST['sname']);}
-else {echo "You have not entered a surname!";}
+if (key_exists('sname', $_POST)) {
+    echo htmlspecialchars($_POST['sname']);
+} else {
+    echo "You have not entered a surname!";
+}
 echo '</td>
   </tr>
   <tr>
     <td>Enter your Father name: </td><td><input name = "fname" />
     </td><td></td><td>You Father name is: </td>
     <td>';
-if (!empty($_POST["sname"]))
-{echo htmlspecialchars($_POST['fname']);}
-else {echo "You have not entered a Father name!";}
+if (key_exists('fname', $_POST)) {
+    echo htmlspecialchars($_POST['fname']);
+} else {
+    echo "You have not entered a Father name!";
+}
 echo '</td>
   </tr>
   ';
 echo '</form></table>';
-//var_dump($_POST);
+var_dump($_POST);
 ?>
 
 </body>
