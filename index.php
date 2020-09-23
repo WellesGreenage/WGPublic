@@ -20,13 +20,26 @@ ob_start();
 
 <body>
 <?php
-$a = [1, 22, 3, 4, 5];
+$a = [1, 2, 3, 4, 5];
 $u = -1;
 for ($i = $a[0]; $i < (count($a) + 1); $i++) {
     $u++;
     echo($a[$u]);
 }
-//var_dump($_POST);
+echo '</br>';
+
+$b = [];
+$t = 0;
+for ($y = 0; $y < 1001; $y++) {
+    $t = $t +2;
+    array_push($b, $t);
+}
+$w = -1;
+for ($q = $b[0]; $q < (count($b) +1); $q++) {
+    $w++;
+    echo ($b[$w]);
+    echo '</br>';
+}
 ?>
 
 </body>
