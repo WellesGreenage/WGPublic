@@ -20,7 +20,12 @@ ob_start();
 
 <body>
 <?php
-
+$a = [1, 22, 3, 4, 5];
+$u = -1;
+for ($i = $a[0]; $i < (count($a) + 1); $i++) {
+    $u++;
+    echo($a[$u]);
+}
 //var_dump($_POST);
 ?>
 
