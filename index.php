@@ -26,9 +26,9 @@ echo '
 <button>PUSH</button>
 </form>';
 if (empty($_POST['form'])) {
-    exit('Enter the string!');
+    exit('You dont entered the string');
 } else {
-    echo strrev($_POST['form']);
+    echo strrev($_POST['form']);#Вывод строки наоборот
 }
 ?>
 </body>
