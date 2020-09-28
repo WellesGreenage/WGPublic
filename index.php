@@ -29,11 +29,11 @@ if (empty($_POST['form'])) {
     exit('You dont entered the string');
 } else {
     $a = 0;
-    $c = strlen($_POST['form']);
-    while ($c > 0) {
+    $b = strlen($_POST['form']);
+    for ($c = strlen($_POST['form']); $c > 0; $c--) {
         $a++;
-        $c--;
-        echo $a, " ", $_POST['form'][$c], '<br>';
+        $b--;
+        echo $a, " ", $_POST['form'][$b], '<br>';
     }
 }
 ?>
