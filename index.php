@@ -28,7 +28,13 @@ echo '
 if (empty($_POST['form'])) {
     exit('You dont entered the string');
 } else {
-    echo strrev($_POST['form']);#Вывод строки наоборот
+    $a = 0;
+    $c = strlen($_POST['form']);
+    while ($c > 0) {
+        $a++;
+        $c--;
+        echo $a, " ", $_POST['form'][$c], '<br>';
+    }
 }
 ?>
 </body>
